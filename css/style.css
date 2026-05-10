@@ -7,7 +7,7 @@
     text-decoration: underline;
     text-decoration-color: #FCA311;
     text-underline-offset: 8px;
-    text-decoration-thickness: 3pxs;
+    text-decoration-thickness: 3px;
 }
 
 section {
@@ -89,4 +89,41 @@ section {
     background-color: white;
     border: 5px solid white(226, 7, 7);
     margin: 22px auto;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    section {
+        padding-top: 60px;
+    }
+
+    .navbar {
+        padding-top: 4px !important;
+        padding-bottom: 4px !important;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem !important;
+    }
+
+    .navbar-toggler {
+        padding: 3px 6px !important;
+        font-size: 0.8rem;
+    }
+
+    .navbar-nav {
+        gap: 0 !important;
+    }
+
+    .nav-link {
+        padding: 5px 0 !important;
+        font-size: 14px;
+    }
+
+    #home {
+        padding-top: 80px;
+    }
 }
